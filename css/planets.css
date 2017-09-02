@@ -1,6 +1,7 @@
 body {
 	font-family: Avenir, sans-serif;
 	font-size: 0.8rem;
+	margin: 0;
 }
 
 #headline {
@@ -9,14 +10,14 @@ body {
 }
 
 #pink {
-	border-bottom: 1px solid deeppink;
+	border-bottom: 2px solid deeppink;
 	padding-bottom: 0.25rem;
 }
 
 circle {
 	fill: #fff;
 	stroke: deeppink;
-	stroke-width: 1px;
+	stroke-width: 4px;
 }
 
 line {

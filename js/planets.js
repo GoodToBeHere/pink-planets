@@ -94,8 +94,8 @@ d3.csv('data/planets.csv', row, function(error, data) {
 
     svg.append('path')
         .attr('d', saturnArc)
-        .attr('stroke-width', 2)
-        .attr('stroke', 'hotpink')
+        .attr('stroke-width', 5)
+        .attr('stroke', 'deeppink')
         .attr('fill', 'none');
 
   }, dur * 1.2);
