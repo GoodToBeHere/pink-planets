@@ -37,7 +37,7 @@ line {
 a:link {
 	text-decoration: none;
 }
-a:visited {
+a, a:visited {
 	color: #999;
 }
 a:hover {
