@@ -12,8 +12,8 @@ function row(d) {
 /* Data load and visual */
 /* ==================== */
 
-d3.csv('data/planets.csv', row, function(error, data) {
-  if (error) throw error;
+d3.csv('data/planets.csv', row).then(function(data) {
+
   console.log(data);
 
   /* Set up */
@@ -207,9 +207,6 @@ d3.csv('data/planets.csv', row, function(error, data) {
       .style('opacity', 0);
 
   } // mouseout()
-
-
-
 
 }); // d3.csv()
 
